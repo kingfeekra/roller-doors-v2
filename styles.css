@@ -167,6 +167,7 @@ nav ul a:hover {
 .aboutUsGrid {
     width: 70%;
     display:grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 6fr;
     gap: 80px;
@@ -178,11 +179,28 @@ nav ul a:hover {
     width: 50%;
 }
 
+.aboutUsGrid p {
+    line-height: 1.4;
+}
+
+.aboutUsGrid > div > h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+hr {
+    width: 20%;
+    height: 5px; 
+    border: 0px solid rgb(241, 36, 36); 
+    border-top-width: 2px;
+}
+
 .aboutUsGrid > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+    width: 90%;
 }
 
 .aboutUsGrid > div > div {
@@ -191,11 +209,46 @@ nav ul a:hover {
 }
 
 .aboutUsGrid h3 {
+    display: flex;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.aboutUsGrid svg {
+    color: rgb(219, 31, 31);
 }
 
 .aboutUs p {
     color: rgba(0,0,0,0.6);
 }
 
+.ourDoors {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(247, 245, 245);
+}
+
+.ourDoorsGrid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    width: 80%;
+    
+}
+
+.ourDoorsGrid > div:first-child{
+    grid-area: 1/1/2/3;
+    text-align: center;
+    width: 50%;
+}
+
+.ourDoorsGrid p {
+    line-height: 1.4;
+}
+
+.ourDoorsGrid > div > h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
