@@ -334,6 +334,7 @@ hr {
     grid-template-rows: 1fr 3fr;
     width: 50%;
     margin: 30px;
+    gap: 15px;
 }
 
 .footerGrid h2 {
@@ -351,10 +352,6 @@ hr {
     line-height: 2.5;
 }
 
-.footerGrid div {
-    
-}
-
 .fa {
     font-size: 20px;
     text-align: center;
@@ -369,6 +366,7 @@ hr {
     height: 50px;
     background-color: rgb(37, 38, 85);
     transition: 0.3s;
+    margin-top: 20px;
 }
 
 .iconDiv:nth-child(2) {
@@ -378,6 +376,19 @@ hr {
 .iconDiv:hover {
     background-color: rgb(219, 31, 31);
     transition: 0.3s;
+}
+
+.footerGrid h3 {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+.footerGrid > div:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 10px;
 }
 
 
