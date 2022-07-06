@@ -68,6 +68,7 @@ html {
     position:sticky;
     top: 0;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .headerContent {
@@ -241,6 +242,26 @@ nav ul a:hover {
 
 .iconDiv:nth-child(2) {
     margin-left: 20px;
+}
+
+.introContent .iconDiv:first-of-type{
+    background-color: rgb(66 103 178);
+    color: white;
+}
+
+.introContent .iconDiv:nth-of-type(2){
+    background-color: rgb(223, 18, 154);
+    color: white;
+}
+
+.introContent .iconDiv:first-of-type:hover{
+    background-color: rgb(219, 31, 31);
+    color: white;
+}
+
+.introContent .iconDiv:nth-of-type(2):hover{
+    background-color: rgb(219, 31, 31);
+    color: white;
 }
 
 .iconDiv:hover {
