@@ -74,12 +74,11 @@ html {
 }
 
 .headerContent {
-    width: 1200px;
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr;
     margin: 30px;
-    text-align: center;
+    text-align: center;  
 }
 
 nav ul {
