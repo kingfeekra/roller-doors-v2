@@ -395,4 +395,33 @@ hr {
     gap: 10px;
 }
 
+@media screen and (max-width: 900px) {
+
+#container {
+    display: grid ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 4fr 10fr 14fr 5fr;
+}
+
+.aboutUsGrid {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourDoorsGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourDoorsGrid > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+
 
