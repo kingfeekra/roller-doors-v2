@@ -59,10 +59,12 @@ html {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr 12fr 12fr 5fr;
+    grid-template-rows: 75px 8fr 12fr 12fr 5fr;
 }
 
 .header {
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-color: white;
     position:sticky;
@@ -73,11 +75,10 @@ html {
 
 .headerContent {
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr;
     margin: 30px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 nav ul {
@@ -150,6 +151,7 @@ nav ul a:hover {
   letter-spacing: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .introContent button:hover {
@@ -313,6 +315,7 @@ hr {
   letter-spacing: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
   transition: 0.3s;
+  cursor:pointer;
 }
 
 .ourDoorsGrid button:hover {

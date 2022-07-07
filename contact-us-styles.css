@@ -63,6 +63,8 @@ html {
 }
 
 .header {
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-color: white;
     position:sticky;
@@ -72,12 +74,12 @@ html {
 }
 
 .headerContent {
+    width: 1200px;
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
     grid-template-rows: 1fr;
     margin: 30px;
     text-align: center;
-    
 }
 
 nav ul {
