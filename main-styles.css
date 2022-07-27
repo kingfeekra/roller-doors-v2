@@ -421,6 +421,10 @@ hr {
     flex-direction: column;
 }
 
+.footerGrid {
+    width: 100%;
+}
+
 
 }
 
