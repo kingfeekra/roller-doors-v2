@@ -59,7 +59,7 @@ html {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 8fr 12fr 12fr 5fr;
+    grid-template-rows: 75px 650px 1000px 12fr 5fr;
 }
 
 .header {
@@ -168,12 +168,13 @@ nav ul a:hover {
 }
 
 .aboutUsGrid {
-    width: 70%;
+    max-width: 1000px;
+    margin: auto;
     display:grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 6fr;
-    gap: 80px;
+    grid-template-rows: 1fr 5fr;
+    gap: 50px;
 }
 
 .aboutUsGrid > div:first-child{
@@ -395,7 +396,7 @@ hr {
     gap: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
 
 #container {
     display: grid ;
@@ -407,6 +408,19 @@ hr {
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.aboutUsGrid > div:nth-child(2) {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.aboutUsGrid > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ourDoorsGrid {
