@@ -401,7 +401,7 @@ hr {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 4fr 10fr 14fr 5fr;
+    grid-template-rows: 75px 500px 1400px 2000px 5fr;
 }
 
 .aboutUsGrid {
@@ -430,9 +430,17 @@ hr {
     align-items: center;
 }
 
+.ourDoorsGrid > div:first-child{
+    grid-area: 1/1/2/3;
+    text-align: center;
+    width: 80%;
+    align-self: center;
+}
+
 .ourDoorsGrid > div:nth-child(2) {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .footerGrid {
