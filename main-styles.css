@@ -65,7 +65,7 @@ html {
 .header {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: auto;
     background-color: white;
     position:sticky;
     top: 0;
