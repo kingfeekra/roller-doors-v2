@@ -10,6 +10,8 @@ const menu = document.querySelector(".headerContent");
     }
 }
 
+changeMenu();
+
 window.onresize = function () {
     changeMenu();
 };
