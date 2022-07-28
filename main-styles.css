@@ -82,11 +82,14 @@ html {
 }
 
 nav ul {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
-    gap: 10px;
     font-size: 0.9rem;
+}
+
+nav ul li {
+    margin-left: 10px;
 }
 
 nav ul a:hover {
