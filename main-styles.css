@@ -83,13 +83,12 @@ html {
 
 nav ul {
     display: flex;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
     font-size: 0.9rem;
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 nav ul a:hover {
@@ -212,7 +211,7 @@ hr {
 }
 
 .aboutUsGrid > div > div {
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 2px solid rgba(241,36,36,0.8);
     padding: 30px 20px 30px;
 }
 

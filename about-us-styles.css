@@ -59,9 +59,8 @@ html {
 #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 200px minmax(800px, max-content)  3fr;
+    grid-template-rows: 75px 200px minmax(550px, max-content)  3fr;
 }
-
 .header {
     display: flex;
     justify-content: center;
@@ -168,7 +167,7 @@ nav ul a:hover {
 }
 
 .introContent > div {
-    width: auto;
+    width: 100%;
     padding: 20px 0px 20px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     text-align: left;
