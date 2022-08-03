@@ -410,12 +410,21 @@ hr {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    width: 90%;
+}
+
+.aboutUsGrid > div:first-of-type {
+    width: 60%;
 }
 
 .aboutUsGrid > div:nth-child(2) {
     justify-content: space-between;
     text-align: center;
-    width: 100%;
+    width: auto;
+}
+
+.aboutUsGrid > div > p {
+    margin-bottom: 15px;
 }
 
 .aboutUsGrid > div > div {
@@ -423,6 +432,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .ourDoorsGrid {
@@ -446,7 +456,7 @@ hr {
 }
 
 .footerGrid {
-    width: 100%;
+    width: auto;
 }
 
 
