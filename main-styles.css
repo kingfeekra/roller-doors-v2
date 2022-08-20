@@ -59,7 +59,7 @@ html {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 650px 800px 12fr 5fr;
+    grid-template-rows: 75px 650px minmax(800px, max-content) minmax(600px, max-content)5fr;
 }
 
 .header {
@@ -216,7 +216,9 @@ hr {
 
 .aboutUsGrid > div > div {
     border: 2px solid rgba(241,36,36,0.8);
+    border-radius: 10px;
     padding: 30px 20px 30px;
+    margin-bottom: 20px;
 }
 
 .aboutUsGrid h3 {
@@ -245,7 +247,6 @@ hr {
     justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
-    width: 80%;
 }
 
 .ourDoorsGrid > div:first-child{
@@ -407,7 +408,7 @@ hr {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 500px 1400px 2000px 5fr;
+    grid-template-rows: 75px 500px 1400px 1600px 5fr;
 }
 
 .aboutUsGrid {
@@ -444,6 +445,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 .ourDoorsGrid > div:first-child{

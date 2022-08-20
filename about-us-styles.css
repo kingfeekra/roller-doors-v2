@@ -131,7 +131,7 @@ nav ul a:hover {
 
 .introContent {
     position: absolute;
-    width: 300px;
+    width: 800px;
     color: black;
     display: flex;
     flex-direction: column;
