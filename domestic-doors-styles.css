@@ -199,7 +199,7 @@ nav ul a:hover {
 .introContent button {
   padding: 0.7rem 3rem;
   font-size: 1.3rem;
-  width: 300px;
+  width: 250px;
   background-color: rgb(219, 31, 31);
   border: none;
   color: white;
@@ -213,6 +213,12 @@ nav ul a:hover {
     background-color: rgb(0, 1, 44);
     color: rgb(255, 255, 255);
     transition: 0.3s;
+}
+
+.buttonGroup {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .footer {
