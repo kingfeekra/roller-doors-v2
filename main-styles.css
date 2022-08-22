@@ -417,7 +417,7 @@ hr {
 #container {
     display: grid ;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(60px, min-content) 500px 1400px 1600px 350px;
+    grid-template-rows: minmax(60px, min-content) 500px 1400px minmax(1600px, 1800px) minmax(350px, min-content);
 }
 
 .aboutUsGrid {
