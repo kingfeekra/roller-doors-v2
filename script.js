@@ -1,17 +1,8 @@
-const header = document.querySelector(".header");
-
-const changeMenu = function() {
-const menu = document.querySelector(".headerContent");
-    if(document.documentElement.clientWidth < 850) {
-        menu.style.display = "none";
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    else if(document.documentElement.clientWidth > 850) {
-        menu.style.display = "flex";
-    }
-}
-
-changeMenu();
-
-window.onresize = function () {
-    changeMenu();
-};
+  }
