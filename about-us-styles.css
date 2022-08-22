@@ -59,13 +59,14 @@ html {
 #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 200px minmax(550px, max-content)  3fr;
+    grid-template-rows: 60px 200px minmax(200px, max-content) 350px;
 }
+
 .header {
     display: flex;
     justify-content: center;
     width: auto;
-    background-color: white;
+    background-color: #333;
     position:sticky;
     top: 0;
     z-index: 1;
@@ -80,12 +81,27 @@ html {
     text-align: center;  
 }
 
+.header > nav {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav ul {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 1fr;
-    gap: 10px;
+    display: flex;
     font-size: 0.9rem;
+}
+
+.header > nav ul li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+nav ul a:hover {
+    color: rgb(255, 24, 24);
+    transition: 0.3s;
 }
 
 nav ul a:hover {
@@ -131,7 +147,7 @@ nav ul a:hover {
 
 .introContent {
     position: absolute;
-    width: 800px;
+    width: 750px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -287,7 +303,7 @@ nav ul a:hover {
     #container {
         display: grid ;
         grid-template-columns: 1fr;
-        grid-template-rows: 75px 200px minmax(800px, max-content)  3fr;
+        grid-template-rows: minmax(60px, min-content) 200px minmax(200px, max-content)  350px;
     }
 
     .introContent {
