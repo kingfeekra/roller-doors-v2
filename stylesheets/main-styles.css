@@ -109,7 +109,7 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url("images/roller-door.jpg");
+    background-image: url("../images/roller-door.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0; /* prevents content appearing above sticky header*/
@@ -294,17 +294,17 @@ hr {
 }
 
 .ourDoorsGrid > div:nth-child(2) > div:first-child > div:first-child {
-    background-image: url(images/Domestic-Garage-Doors.jpg);
+    background-image: url(../images/Domestic-Garage-Doors.jpg);
     background-size: cover;
 }
 
 .ourDoorsGrid > div:nth-child(2) > div:nth-child(2) > div:first-child {
-    background-image: url(images/industrial-door-1.jpg);
+    background-image: url(../images/industrial-door-1.jpg);
     background-size: cover;
 }
 
 .ourDoorsGrid > div:nth-child(2) > div:nth-child(3) > div:first-child {
-    background-image: url(images/blue-shutters.jpg);
+    background-image: url(../images/blue-shutters.jpg);
     background-size: cover;
 }
 

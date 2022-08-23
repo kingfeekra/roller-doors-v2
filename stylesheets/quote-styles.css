@@ -113,7 +113,7 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/background-door.jpg);
+    background-image: url(../images/background-door.jpg);
     background-position: 10%;
     position: relative;
     text-align: center;
@@ -121,9 +121,8 @@ nav ul a:hover {
 
 .heading h1 {
     position: absolute;
-    font-size: 2.8rem;
+    font-size: 3rem;
     color: white;
-    margin: 20px;
 }
 
 .heading::before { /*transparent black on top of bg image*/
@@ -142,89 +141,76 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(247, 245, 245);
+    position: relative;
     z-index: 0; /* prevents content appearing above sticky header*/
 }
 
 .introContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: min-content;
-    max-width: 800px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.7fr 1fr 1fr;
-    width: auto;
+    position: absolute;
+    width: 300px;
     color: black;
-    margin:30px;
-}
-
-.introText {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: auto;
-    margin: 30px;
+    text-align: center;
 }
 
-.introText * {
-    margin-bottom: 15px;
+.introContent > * {
+   
 }
 
-.introText > h2 {
+.introContent h1 {
+    font-size: 3.5rem;
     font-weight: bold;
-    font-size: 1.8rem;
-    color: rgba(0, 0, 0);
 }
 
-.introText p {
-    text-align: left;
-    font-size: 1.1rem;
-    color: rgba(0, 0, 0, 0.75);
-    line-height: 1.3;
+.introContent h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.introContent p{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.introContent svg {
+    margin-right: 5px;
+    color: rgb(219, 31, 31);
 }
 
 .introContent > div {
-    width: auto;
-}
-
-.introContent img {
-    grid-area: 1/2/4/3;
-    max-width: 800px;
-    height: auto;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    margin-bottom: 40px;
+    width: 100%;
+    padding: 20px 0px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
 }
 
 .introContent button {
   padding: 0.7rem 3rem;
   font-size: 1.3rem;
-  width: 250px;
   background-color: rgb(219, 31, 31);
   border: none;
+  border-radius: 10px;
   color: white;
   letter-spacing: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
   transition: 0.3s;
-  cursor: pointer;
 }
 
 .introContent button:hover {
-    background-color: rgb(0, 1, 44);
-    color: rgb(255, 255, 255);
+    background-color: white;
+    color: rgb(31, 4, 4);
     transition: 0.3s;
-}
-
-.buttonGroup {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: auto;
     background-color: rgb(0, 1, 44);
     color: white;
 }
@@ -233,7 +219,7 @@ nav ul a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    width: 60%;
+    width: 50%;
     margin: 30px;
     gap: 15px;
 }
@@ -272,6 +258,26 @@ nav ul a:hover {
 
 .iconDiv:nth-child(2) {
     margin-left: 20px;
+}
+
+.introContent .iconDiv:first-of-type{
+    background-color: rgb(66 103 178);
+    color: white;
+}
+
+.introContent .iconDiv:nth-of-type(2){
+    background-color: rgb(223, 18, 154);
+    color: white;
+}
+
+.introContent .iconDiv:first-of-type:hover{
+    background-color: rgb(219, 31, 31);
+    color: white;
+}
+
+.introContent .iconDiv:nth-of-type(2):hover{
+    background-color: rgb(219, 31, 31);
+    color: white;
 }
 
 .iconDiv:hover {
@@ -314,11 +320,6 @@ nav ul a:hover {
 
     .introContent * {
         margin-bottom: 10px;
-    }
-
-    .introContent img {
-        max-width: 600px;
-        margin-bottom: 40px;
     }
 
     .introContent p {

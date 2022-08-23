@@ -59,7 +59,7 @@ html {
 #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 200px minmax(800px, max-content) 3fr;
+    grid-template-rows: 60px 200px minmax(550px, min-content) 3fr;
 }
 
 .header {
@@ -113,7 +113,7 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/background-door.jpg);
+    background-image: url(../images/background-door.jpg);
     background-position: 10%;
     position: relative;
     text-align: center;

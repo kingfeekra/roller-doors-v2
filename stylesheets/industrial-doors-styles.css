@@ -113,7 +113,7 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/background-door.jpg);
+    background-image: url(../images/background-door.jpg);
     background-position: 10%;
     position: relative;
     text-align: center;
