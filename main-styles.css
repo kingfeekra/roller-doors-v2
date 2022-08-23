@@ -413,6 +413,20 @@ hr {
     gap: 10px;
 }
 
+@media screen and (max-width: 1180px) {
+
+    .ourDoorsGrid > div:nth-child(2) {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
+        height: auto;
+        gap: 30px;
+        margin: 30px;
+    }
+
+}
+
 @media screen and (max-width: 850px) {
 
 #container {
