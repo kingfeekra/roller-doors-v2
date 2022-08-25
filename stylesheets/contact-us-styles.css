@@ -59,7 +59,7 @@ html {
 #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 200px minmax(550px, min-content) 3fr;
+    grid-template-rows: 60px 200px minmax(600px, min-content) 3fr;
 }
 
 .header {
@@ -199,11 +199,12 @@ nav ul a:hover {
   letter-spacing: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .introContent button:hover {
-    background-color: white;
-    color: rgb(31, 4, 4);
+    background-color: rgb(0, 1, 44);
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 
