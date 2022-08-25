@@ -49,7 +49,7 @@ a:link, a:visited {
 
 @font-face {
     font-family: customFont;
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 html {

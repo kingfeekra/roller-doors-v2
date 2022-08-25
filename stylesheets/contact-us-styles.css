@@ -49,7 +49,7 @@ a:link, a:visited {
 
 @font-face {
     font-family: customFont;
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 html {
@@ -297,6 +297,14 @@ nav ul a:hover {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
     gap: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+    #container {
+        display: grid ;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(76px, min-content) 200px minmax(800px, max-content)  3fr;
+    }
 }
 
 @media screen and (max-width: 850px) {
