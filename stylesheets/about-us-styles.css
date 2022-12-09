@@ -59,7 +59,7 @@ html {
 #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 200px minmax(200px, max-content) 350px;
+    grid-template-rows: 60px 200px minmax(550px, max-content) 350px;
 }
 
 .header {
@@ -187,6 +187,7 @@ nav ul a:hover {
     padding: 20px 0px 20px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .introContent button {
@@ -205,6 +206,12 @@ nav ul a:hover {
     background-color: white;
     color: rgb(31, 4, 4);
     transition: 0.3s;
+}
+
+.introContent > img {
+    width: 750px;
+    height: 350px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.253);
 }
 
 .footer {
@@ -303,7 +310,7 @@ nav ul a:hover {
     #container {
         display: grid ;
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(60px, min-content) 200px minmax(200px, max-content)  350px;
+        grid-template-rows: minmax(60px, min-content) 200px minmax(550px, max-content)  350px;
     }
 
     .introContent {
