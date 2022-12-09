@@ -209,8 +209,8 @@ nav ul a:hover {
 }
 
 .introContent > img {
-    width: 750px;
-    height: 350px;
+    width: 90%;
+    height: auto;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.253);
 }
 
